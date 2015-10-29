@@ -1,0 +1,11 @@
+start<-c(1,2,3,4)
+end<-c(9,8,7,6)
+df<-data.frame(start,end,stringsAsFactors=F)
+new_col<-c(1,2,NA,NA)
+df$new_col<-new_col
+df
+df$another_column<-0
+df
+a=0
+df<-cbind(a,df)
+df

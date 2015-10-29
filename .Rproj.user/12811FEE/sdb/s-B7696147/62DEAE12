@@ -1,0 +1,18 @@
+{
+    "contents" : "fname <- file.choose()\n\nload(fname)\n\nView(df1)\n\nrequire(RJSONIO) \nx<-tojson\nx\nsave(x, file=\"x.txt\")\n\nx\n",
+    "created" : 1446114013930.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "389102470",
+    "id" : "62DEAE12",
+    "lastKnownWriteTime" : 1446114264,
+    "path" : "~/Desktop/rfacebook_datamining/12 convert_data_frame_to_json.R",
+    "project_path" : "12 convert_data_frame_to_json.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
